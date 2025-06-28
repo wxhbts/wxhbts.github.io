@@ -1,0 +1,23 @@
+{
+	"minVersion": "0.1",
+	"headerImage": "https://apt.cydiaa.com/images/sileo.png",
+	"tintColor": "#FF0000",
+	"tabs": [{
+		"tabname": "软件详情",
+		"views": [{
+			"useBoldText": true,
+			"useBottomMargin": true,
+			"class": "DepictionSubheaderView"
+		}, {
+			"markdown": "系统维护中",
+			"class": "DepictionMarkdownView"
+		}, {
+			"text": "系统维护中",
+			"openExternal": true,
+			"action": "https://apt.wxhbts.com/",
+			"class": "DepictionButtonView"
+		}],
+		"class": "DepictionStackView"
+	}],
+	"class": "DepictionTabView"
+}
